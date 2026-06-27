@@ -2,10 +2,9 @@
 import os
 import httpx
 
-BASE = "https://graph.facebook.com/v21.0"
+BASE = "https://graph.instagram.com/v21.0"
 TOKEN = os.environ.get("IG_ACCESS_TOKEN", "")
-PAGE_ID = os.environ.get("IG_PAGE_ID", "")
-ACCOUNT_ID = os.environ.get("IG_ACCOUNT_ID", "")
+ACCOUNT_ID = os.environ.get("IG_ACCOUNT_ID", "27017300914636656")
 
 
 def _get(path: str, **params) -> dict:

@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-nanoboy-social-mcp — Instagram growth MCP para creadores LATAM
+ig-latam-mcp — Instagram growth MCP para creadores LATAM
 Comment-to-DM · Story Reply-to-DM · Bulk replies · Competitor intel
 """
 from mcp.server.fastmcp import FastMCP
 from . import instagram as ig
 
-mcp = FastMCP("nanoboy-social", version="1.0.0")
+mcp = FastMCP("ig-latam-mcp")
 
 
 # ═══════════════════════════════════════════════
